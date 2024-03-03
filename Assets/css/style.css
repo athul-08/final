@@ -1,0 +1,60 @@
+.logo {
+  position: absolute;
+  width: 251px;
+  height: 70.2px;
+  left: 51px;
+  top: 8px; }
+
+.text {
+  display: flex;
+  position: absolute;
+  width: 580px;
+  height: 29px;
+  top: 5px;
+  right: 0; }
+
+.ul {
+  float: right; }
+  .ul li {
+    list-style: none;
+    float: left;
+    top: 55px;
+    padding: 12px; }
+  .ul li a {
+    text-decoration: none;
+    color: black;
+    display: block; }
+
+.main {
+  display: flex; }
+  .main .logo {
+    flex-direction: column; }
+  .main .text {
+    flex-direction: row; }
+  .main .navs {
+    flex-direction: row; }
+
+.intros .hdg {
+  width: 209px;
+  height: 52px;
+  left: 50px;
+  top: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+  color: #FFFFFF; }
+.intros .cnt {
+  width: 766px;
+  height: 105px;
+  left: 50px;
+  top: 225px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

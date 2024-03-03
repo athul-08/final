@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    .logo{
+        flex-direction: column;
+    }
+    .text{
+        flex-direction: row;
+
+    }
+    .navs{
+        flex-direction: row;
+    }
+}
